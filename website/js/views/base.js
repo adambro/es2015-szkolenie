@@ -6,3 +6,5 @@ class BaseView {
     this.host = host
   }
 }
+
+export default BaseView;

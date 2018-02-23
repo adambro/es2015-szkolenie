@@ -2,6 +2,10 @@ import CartModel from './models/cart.js'
 import ProductModel from './models/product.js'
 
 import CartController from './controllers/cart.js'
+import ProductListController from './controllers/product-list.js'
+
+import ProductListView from './views/product-list.js'
+import CartView from './views/cart.js'
 
 var cartModel = new CartModel()
 var productModel = new ProductModel()

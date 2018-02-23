@@ -27,3 +27,5 @@ class ProductListController {
     this.cartModel.add(product)
   }
 }
+
+export default ProductListController;
