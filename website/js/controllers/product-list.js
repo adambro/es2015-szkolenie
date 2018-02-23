@@ -11,15 +11,14 @@ class ProductListController {
   }
 
   loadProducts() {
-    var self = this
     this.productListView.render()
-    this.productModel.getAllProducts(function (err, products) {
+    this.productModel.getAllProducts((err, products) => {
       if (err) {
         console.error(err)
         return 
       }
   
-      self.productListView.render(products)
+      this.productListView.render(products)
     })    
   }
 
